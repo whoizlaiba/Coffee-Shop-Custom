@@ -1,0 +1,53 @@
+
+.footer {
+    background-color: rgb(17, 24, 39); 
+    padding: 2rem 0; 
+  }
+  
+  .footercontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+  
+  .footertext {
+    font-family: 'Bad Script', cursive; 
+  }
+  
+  .footerlocation, .footercopy {
+    color: #d69e2e; 
+    font-size: 0.875rem;
+  }
+  
+  .footeremail {
+    color: white;
+    font-size: 0.875rem; 
+  }
+  
+  .footercopy {
+    margin-left: 1rem; 
+  }
+  
+  @media (min-width: 640px) {
+    .footercontainer {
+      flex-direction: row; 
+      align-items: center; 
+      }
+  
+    .footertext {
+      margin-bottom: 0;
+    }
+  
+    .footerlocation {
+      margin-bottom: 0; 
+    }
+  
+    .footercopy {
+      margin-left: 1rem; 
+    }
+  }
+  
